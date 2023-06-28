@@ -21,55 +21,61 @@
     />
   </head>
   <body>
-    <header>
-      <h2 class="logo"><span>Web</span>Studio</h2>
-      <nav>
-        <ul>
-          <li><a href="#">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+    <header class="header">
+      <h2 class="header_logo"><span>Web</span>Studio</h2>
+      <nav class="header_nav">
+        <ul class="header_list">
+          <li class="header_item">
+            <a class="header_link" href="#">Студія</a>
+          </li>
+          <li class="header_item">
+            <a class="header_link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="header_item">
+            <a class="header_link" href="#">Контакти</a>
+          </li>
         </ul>
       </nav>
-      <div class="contacts">
+      <div class="header_contacts">
         <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a href="tel:+380961111111">+38 096 111 11 11</a>
       </div>
     </header>
     <main>
-      <section>
-        <h1>
+      <section class="title">
+        <h1 class="title_title">
           Ефективні рішення для <br />
           вашого бізнесу
         </h1>
-        <button>Замовити послугу</button>
+        <button class="title_btn">Замовити послугу</button>
       </section>
-      <section>
-        <ul>
-          <li>
-            <h3 class="sub_title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="description">
+      <section class="descr">
+        <ul class="descr_list">
+          <li class="descr_item">
+            <h3 class="descr_sub_title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="descr_description">
               Ідейні міркування, і навіть початок <br />
               повсякденної роботи формування <br />
               позиції.
             </p>
           </li>
-          <li>
-            <h3 class="sub_title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="description">
+          <li class="descr_item">
+            <h3 class="descr_sub_title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="descr_description">
               Завдання організації, особливо рамки <br />
               і місце навчання кадрів тягне у себе.
             </p>
           </li>
-          <li>
-            <h3 class="sub_title">ПЛАНУВАННЯ</h3>
-            <p class="description">
+          <li class="descr_item">
+            <h3 class="descr_sub_title">ПЛАНУВАННЯ</h3>
+            <p class="descr_description">
               Так само консультація з широким <br />
               активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
-            <h3 class="sub_title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="description">
+          <li class="descr_item">
+            <h3 class="descr_sub_title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="descr_description">
               Значимість цих проблем настільки <br />
               очевидна, що реалізація планових <br />
               завдань.
@@ -78,49 +84,57 @@
         </ul>
       </section>
 
-      <section>
-        <h2 class="title">Чим ми займаємося</h2>
-        <ul>
-          <li>
-            <img src="/img/box_1.png" alt="img1" />
+      <section class="img">
+        <h2 class="img_title">Чим ми займаємося</h2>
+        <ul class="img_list">
+          <li class="img_item">
+            <img class="img_picture" src="/img/box_1.png" alt="img1" />
           </li>
           <li>
-            <img src="/img/box_2.png" alt="img2" />
+            <img class="img_picture" src="/img/box_2.png" alt="img2" />
           </li>
           <li>
-            <img src="/img/box_3.png" alt="img3" />
+            <img class="img_picture" src="/img/box_3.png" alt="img3" />
           </li>
         </ul>
       </section>
 
-      <section>
-        <h2 class="title">Наша команда</h2>
-        <ul>
-          <li>
-            <img src="/img/project_designer.jpg" alt="project_designer" />
-            <h3 class="subtitle">Ігор Дем'яненко</h3>
-            <h4>Product Designer</h4>
+      <section class="workers">
+        <h2 class="workers_title">Наша команда</h2>
+        <ul class="workers_list">
+          <li class="workers_item">
+            <img
+              class="workers_img"
+              src="/img/project_designer.jpg"
+              alt="project_designer"
+            />
+            <h3 class="workers_subtitle">Ігор Дем'яненко</h3>
+            <h4 class="workers_lead">Product Designer</h4>
           </li>
           <li>
-            <img src="/img/front-end_developer.jpg" alt="front-end_developer" />
-            <h3 class="subtitle">Ольга Рєпіна</h3>
-            <h4>Frontend Developer</h4>
+            <img
+              class="workers_img"
+              src="/img/front-end_developer.jpg"
+              alt="front-end_developer"
+            />
+            <h3 class="workers_subtitle">Ольга Рєпіна</h3>
+            <h4 class="workers_lead">Frontend Developer</h4>
           </li>
           <li>
-            <img src="/img/marketing.jpg" alt="marketing" />
-            <h3 class="subtitle">Микола Тарасов</h3>
-            <h4>Marketing</h4>
+            <img class="workers_img" src="/img/marketing.jpg" alt="marketing" />
+            <h3 class="workers_subtitle">Микола Тарасов</h3>
+            <h4 class="workers_lead">Marketing</h4>
           </li>
           <li>
-            <img src="/img/ui_design.jpg" alt="ui_design" />
-            <h3 class="subtitle">Михайло Єрмаков</h3>
-            <h4>UI Designer</h4>
+            <img class="workers_img" src="/img/ui_design.jpg" alt="ui_design" />
+            <h3 class="workers_subtitle">Михайло Єрмаков</h3>
+            <h4 class="workers_lead">UI Designer</h4>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <h2 class="logo"><span>Web</span>Studio</h2>
+      <h2 class="header_logo"><span>Web</span>Studio</h2>
       <p>
         <a
           href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv?entry=ttu"

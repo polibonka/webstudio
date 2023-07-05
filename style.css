@@ -18,6 +18,15 @@ span {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer {
+  background: #2f303a;
+}
+
+.footer_link {
+  color: #ffffff;
 }
 nav > ul > li > a {
   font-family: "Roboto";
@@ -27,6 +36,7 @@ nav > ul > li > a {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
+  text-decoration: none;
 }
 
 .header_contacts {
@@ -58,7 +68,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background: #2f303a;
+
   color: #ffffff;
 }
 button {

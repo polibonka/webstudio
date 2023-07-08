@@ -18,6 +18,14 @@ span {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+}
+.header_logoo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 

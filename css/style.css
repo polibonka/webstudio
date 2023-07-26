@@ -3,7 +3,8 @@ body {
 }
 
 .container {
-  width: 1600px;
+  width: 1170px;
+  margin: 0 auto;
 }
 span {
   font-family: "Raleway";
@@ -102,10 +103,8 @@ li {
   text-transform: uppercase;
   padding-top: 200px;
   padding-bottom: 280px;
-  padding-right: 452px;
-  padding-left: 452px;
 
-  color: #ffffff;
+;  color: #ffffff;
 }
 
 .title_btn {

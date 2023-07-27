@@ -6,6 +6,14 @@ body {
   width: 1170px;
   margin: 0 auto;
 }
+
+.header_list{
+  display: flex;
+  gap:50px;
+  padding: 0;
+  justify-content: space-between;
+}
+
 span {
   font-family: "Raleway";
   font-style: normal;

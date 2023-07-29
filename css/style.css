@@ -9,10 +9,9 @@ body {
 
 .header_list{
   display: flex;
-  gap:10px;
+  gap:50px;
   padding: 0;
   justify-content: space-between;
-  padding-bottom: ;
 }
 
 span {
@@ -42,6 +41,19 @@ span {
   color: #ffffff;
 }
 
+
+.header>.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_wrapper{
+display: flex;
+gap: 93px;
+align-items:center; ;
+}
+
 .footer {
   background: #2f303a;
   width: 1600px;
@@ -68,6 +80,8 @@ nav > ul > li > a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  display: flex;
+  gap: 50px;
 }
 a {
   color: #757575;

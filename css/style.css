@@ -39,7 +39,7 @@ padding: 0;
 
 .header>.container{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 span {
@@ -59,9 +59,6 @@ span {
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-
-
-
 
 
 
@@ -130,6 +127,8 @@ align-items: center;
 
 .title {
   background: #2f303a;
+  padding: 200px 0 ;
+  height: 600px;
 }
 
 .title_title {
@@ -143,6 +142,8 @@ align-items: center;
   text-transform: uppercase;
   padding-top: 200px;
   padding-bottom: 280px;
+  margin: 0;
+
 
 
   color: #ffffff;
@@ -165,6 +166,7 @@ align-items: center;
   color: #ffffff;
   border: none;
   margin: 0 auto;
+  margin-top: 38px;
 } 
 
 .workers {

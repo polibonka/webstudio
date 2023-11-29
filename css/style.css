@@ -438,6 +438,7 @@ section > ul > li > h4 {
 
 .our_work_card-img {
   position: relative;
+  overflow: hidden;
 }
 
 .our_work_card-img::before {
@@ -447,12 +448,15 @@ section > ul > li > h4 {
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
   position: absolute;
-  transition: 0.5s;
+  transition: 0.7s;
+  bottom: -100%;
+
   opacity: 0;
 }
 
 .our_work_card-img:hover:before {
   opacity: 0.8;
+  bottom: 0;
 }
 
 .our_work_descr {
@@ -666,6 +670,7 @@ section > ul > li > h4 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: 0, 5s ease-in;
   background-color: #fff;
   padding: 40px;
   border-radius: 4px;

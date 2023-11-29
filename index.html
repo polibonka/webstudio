@@ -24,6 +24,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css
     "
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -91,7 +95,10 @@
             вашого бізнесу
           </h1>
           <button class="title_btn" data-open-modal>Замовити послугу</button>
-          <div class="backdrop is-hidden" data-modal>
+          <div
+            class="backdrop is-hidden animate__animated animate__pulse"
+            data-modal
+          >
             <div class="modal">
               <button class="btn_close" data-close-modal>
                 <svg
@@ -380,7 +387,8 @@
       <section class="clients">
         <div class="container">
           <h2 class="clients_title">Постійні клієнти</h2>
-          <ul class="clients_brands">
+
+          <ul class="clients_brands animate__animated animate__slideInLeft">
             <li class="clients_link">
               <a href="#" class="clients_link">
                 <svg
